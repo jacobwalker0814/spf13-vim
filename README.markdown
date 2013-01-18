@@ -1,4 +1,4 @@
-# spf13-vim : Steve Francia's Vim Distribution
+# spf13-vim : Jacob Walker's fork of Steve Francia's Vim Distribution
 
                     __ _ _____              _
          ___ _ __  / _/ |___ /      __   __(_)_ __ ___
@@ -40,13 +40,13 @@ The easiest way to install spf13-vim is to use our [automatic installer](http://
 
 ```bash
     
-    curl http://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
+    curl http://bit.ly/jacobwalker0814-spf13-vim -L | > spf13-vim.sh && sh spf13-vim.sh
 ```
 
 If you have a bash-compatible shell you can run the script directly:
 ```bash
 
-    sh <(curl http://j.mp/spf13-vim3 -L)
+    sh <(curl http://bit.ly/jacobwalker0814-spf13-vim -L )
 ```
 
 ## Installing on Windows
@@ -101,7 +101,7 @@ The simpliest (and safest) way to update is to simply rerun the installer. It wi
 
 ```bash
 
-    curl http://j.mp/spf13-vim3 -L -o - | sh
+    curl http://bit.ly/jacobwalker0814-spf13-vim | sh
 
 ```
 
