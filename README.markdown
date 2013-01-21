@@ -40,7 +40,7 @@ The easiest way to install spf13-vim is to use our [automatic installer](http://
 
 ```bash
     
-    curl http://bit.ly/jacobwalker0814-spf13-vim -L | > spf13-vim.sh && sh spf13-vim.sh
+    curl http://bit.ly/jacobwalker0814-spf13-vim -L > spf13-vim.sh && sh spf13-vim.sh
 ```
 
 If you have a bash-compatible shell you can run the script directly:

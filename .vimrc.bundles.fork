@@ -1,0 +1,40 @@
+if !exists("g:spf13_bundle_groups")
+    " Not including the general or html groups so I can override them
+    let g:spf13_bundle_groups=['neocomplcache', 'programming', 'php', 'ruby', 'python', 'javascript', 'misc', 'scala']
+endif
+
+" General: Kept from spf13
+    Bundle 'scrooloose/nerdtree'
+    Bundle 'altercation/vim-colors-solarized'
+    Bundle 'spf13/vim-colors'
+    Bundle 'tpope/vim-surround'
+    Bundle 'kien/ctrlp.vim'
+    Bundle 'vim-scripts/sessionman.vim'
+    Bundle 'matchit.zip'
+    Bundle 'Lokaltog/vim-powerline'
+
+    Bundle 'godlygeek/csapprox'
+    Bundle 'jistr/vim-nerdtree-tabs'
+    Bundle 'flazz/vim-colorschemes'
+    Bundle 'mbbill/undotree'
+    if !exists('g:spf13_no_views')
+        Bundle 'vim-scripts/restore_view.vim'
+    endif
+    Bundle 'tpope/vim-abolish.git'
+" General: Removed from spf13
+    " Bundle 'myusuf3/numbers.vim'
+    " Bundle 'nathanaelkane/vim-indent-guides'
+    " Bundle 'spf13/vim-autoclose'
+    "
+" General: Changed from spf13"
+    " Using skwp's version for two character movements
+    Bundle 'skwp/vim-easymotion'
+
+" General: Added by jacobwalker0814
+    Bundle 'vimwiki'
+
+" html: kept from spf13
+    Bundle 'hail2u/vim-css3-syntax'
+
+" html: removed from spf13
+    " Bundle 'amirh/HTML-AutoCloseTag'
