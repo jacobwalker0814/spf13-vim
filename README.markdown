@@ -36,17 +36,17 @@ The goal has always been to add functionality without changing all the features,
 
 ## Linux, \*nix, Mac OSX Installation
 
-The easiest way to install spf13-vim is to use our [automatic installer](http://j.mp/spf13-vim3) by simply copying and pasting the following line into a terminal. This will install spf13-vim and backup your existing vim configuration. If you are upgrading from a prior version (before 3.0) this is also the recommended installation.
+The easiest way to install spf13-vim is to use our [automatic installer](http://bit.ly/VwL2wR) by simply copying and pasting the following line into a terminal. This will install spf13-vim and backup your existing vim configuration. If you are upgrading from a prior version (before 3.0) this is also the recommended installation.
 
 ```bash
     
-    curl http://bit.ly/jacobwalker0814-spf13-vim -L > spf13-vim.sh && sh spf13-vim.sh
+    curl http://bit.ly/VwL2wR -L > spf13-vim.sh && sh spf13-vim.sh
 ```
 
 If you have a bash-compatible shell you can run the script directly:
 ```bash
 
-    sh <(curl http://bit.ly/jacobwalker0814-spf13-vim -L )
+    sh <(curl http://bit.ly/VwL2wR -L )
 ```
 
 ## Installing on Windows
@@ -101,7 +101,7 @@ The simpliest (and safest) way to update is to simply rerun the installer. It wi
 
 ```bash
 
-    curl http://bit.ly/jacobwalker0814-spf13-vim | sh
+    curl http://bit.ly/VwL2wR | sh
 
 ```
 

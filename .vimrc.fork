@@ -4,3 +4,5 @@ let g:spf13_keep_trailing_whitespace = 1
 colorscheme ir_black
 
 let NERDTreeQuitOnOpen=0
+
+set nospell
