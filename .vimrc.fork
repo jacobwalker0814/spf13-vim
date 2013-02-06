@@ -1,8 +1,15 @@
+colorscheme ir_black
+
+set nospell
+
 let g:spf13_no_keyfixes = 1
 let g:spf13_keep_trailing_whitespace = 1
 
-colorscheme ir_black
-
 let NERDTreeQuitOnOpen=0
 
-set nospell
+" Options for vim-powerline
+let g:Powerline_symbols = 'fancy'
+
+" Options for vimwiki
+filetype plugin indent on
+let g:vimwiki_list = [{'path': '~/Documents/vimwiki/', 'path_html': '~/Documents/vimwiki_html/'}]
