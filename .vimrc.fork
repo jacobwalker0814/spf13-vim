@@ -12,4 +12,4 @@ let g:Powerline_symbols = 'fancy'
 
 " Options for vimwiki
 filetype plugin indent on
-let g:vimwiki_list = [{'path': '~/Documents/vimwiki/', 'path_html': '~/Documents/vimwiki_html/'}]
+let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki/', 'path_html': '~/Dropbox/vimwiki_html/'}]
