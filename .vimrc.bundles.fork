@@ -25,13 +25,15 @@ endif
     " Bundle 'myusuf3/numbers.vim'
     " Bundle 'nathanaelkane/vim-indent-guides'
     " Bundle 'spf13/vim-autoclose'
-    "
-" General: Changed from spf13"
+
+" General: Changed from spf13
     " Using skwp's version for two character movements
     Bundle 'skwp/vim-easymotion'
 
 " General: Added by jacobwalker0814
     Bundle 'vimwiki'
+    Bundle 'goldfeld/vim-seek'
+    Bundle 'vim-scripts/TwitVim'
 
 " html: kept from spf13
     Bundle 'hail2u/vim-css3-syntax'
