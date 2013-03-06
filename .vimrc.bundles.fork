@@ -21,6 +21,7 @@ endif
         Bundle 'vim-scripts/restore_view.vim'
     endif
     Bundle 'tpope/vim-abolish.git'
+    Bundle 'airblade/vim-gitgutter'
 " General: Removed from spf13
     " Bundle 'myusuf3/numbers.vim'
     " Bundle 'nathanaelkane/vim-indent-guides'
