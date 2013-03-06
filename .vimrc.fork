@@ -1,5 +1,7 @@
 colorscheme ir_black
 
+set t_Co=256
+
 set nospell
 
 let g:spf13_no_keyfixes = 1
