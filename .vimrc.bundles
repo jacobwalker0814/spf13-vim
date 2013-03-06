@@ -96,6 +96,7 @@
             if !exists('g:spf13_no_views')
                 Bundle 'vim-scripts/restore_view.vim'
             endif
+            Bundle 'airblade/vim-gitgutter'
             Bundle 'tpope/vim-abolish.git'
         endif
 
@@ -130,6 +131,7 @@
     " PHP
         if count(g:spf13_bundle_groups, 'php')
             Bundle 'spf13/PIV'
+            Bundle 'arnaud-lb/vim-php-namespace'
         endif
 
     " Python
