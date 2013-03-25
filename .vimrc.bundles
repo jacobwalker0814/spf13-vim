@@ -162,6 +162,7 @@
         if count(g:spf13_bundle_groups, 'html')
             Bundle 'amirh/HTML-AutoCloseTag'
             Bundle 'hail2u/vim-css3-syntax'
+            Bundle 'tpope/vim-haml'
         endif
 
     " Ruby
@@ -172,6 +173,11 @@
             "let g:rubycomplete_rails = 1
         endif
 
+    " Go Lang 
+        if count(g:spf13_bundle_groups, 'go')
+            Bundle 'jnwhiteh/vim-golang'
+        endif
+
     " Misc
         if count(g:spf13_bundle_groups, 'misc')
             Bundle 'tpope/vim-markdown'
@@ -180,6 +186,7 @@
             Bundle 'quentindecock/vim-cucumber-align-pipes'
             Bundle 'Puppet-Syntax-Highlighting'
         endif
+
 
     " Twig
         if count(g:spf13_bundle_groups, 'twig')
