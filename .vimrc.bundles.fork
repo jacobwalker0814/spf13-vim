@@ -1,3 +1,8 @@
+" Leave me in the directory where I invoke vim
+" This option must be set here in the bundles file
+" because of where it is referenced in .vimrc
+let g:spf13_no_autochdir = 1
+
 if !exists("g:spf13_bundle_groups")
     " Not including the general or html groups so I can override them
     let g:spf13_bundle_groups=['neocomplcache', 'programming', 'php', 'ruby', 'python', 'go', 'twig', 'javascript', 'misc', 'scala']

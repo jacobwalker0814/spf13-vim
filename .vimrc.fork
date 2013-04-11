@@ -6,7 +6,8 @@ set nospell
 
 let g:spf13_no_keyfixes = 1
 let g:spf13_keep_trailing_whitespace = 1
-let g:spf13_no_autochdir = 1
+let g:tagbar_autofocus = 1
+let g:tagbar_autoclose = 1
 
 let NERDTreeQuitOnOpen=0
 
