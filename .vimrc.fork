@@ -6,11 +6,12 @@ set nospell
 
 let g:spf13_no_keyfixes = 1
 let g:spf13_keep_trailing_whitespace = 1
+let g:spf13_no_autochdir = 1
 
 let NERDTreeQuitOnOpen=0
 
-" Options for vim-powerline
-let g:Powerline_symbols = 'fancy'
+" Options for powerline
+set encoding=utf-8
 
 " Options for vimwiki
 filetype plugin indent on
@@ -22,5 +23,3 @@ nmap  
 " Options for TwitVim
 " Show me 50 tweets at a time
 let g:twitvim_count = 50
-
-highlight clear SignColumn
