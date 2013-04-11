@@ -1,6 +1,6 @@
 if !exists("g:spf13_bundle_groups")
     " Not including the general or html groups so I can override them
-    let g:spf13_bundle_groups=['neocomplcache', 'programming', 'php', 'ruby', 'python', 'javascript', 'misc', 'scala']
+    let g:spf13_bundle_groups=['neocomplcache', 'programming', 'php', 'ruby', 'python', 'go', 'twig', 'javascript', 'misc', 'scala']
 endif
 
 " General: Kept from spf13
@@ -11,7 +11,11 @@ endif
     Bundle 'kien/ctrlp.vim'
     Bundle 'vim-scripts/sessionman.vim'
     Bundle 'matchit.zip'
-    Bundle 'Lokaltog/vim-powerline'
+    if has("python") || has("python3")
+        Bundle 'Lokaltog/powerline', {'rtp':'/powerline/bindings/vim'}
+    else
+        Bundle 'Lokaltog/vim-powerline'
+    endif
 
     Bundle 'godlygeek/csapprox'
     Bundle 'jistr/vim-nerdtree-tabs'
@@ -38,6 +42,7 @@ endif
 
 " html: kept from spf13
     Bundle 'hail2u/vim-css3-syntax'
+    Bundle 'tpope/vim-haml'
 
 " html: removed from spf13
     " Bundle 'amirh/HTML-AutoCloseTag'
