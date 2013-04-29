@@ -1,4 +1,5 @@
 colorscheme ir_black
+highlight clear SignColumn
 
 set t_Co=256
 
