@@ -44,6 +44,7 @@ endif
     Bundle 'vimwiki'
     Bundle 'goldfeld/vim-seek'
     Bundle 'vim-scripts/TwitVim'
+    Bundle 'terryma/vim-multiple-cursors'
 
 " html: kept from spf13
     Bundle 'hail2u/vim-css3-syntax'
