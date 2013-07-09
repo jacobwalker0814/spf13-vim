@@ -12,9 +12,6 @@ let g:tagbar_autoclose = 1
 
 let NERDTreeQuitOnOpen=0
 
-" Options for powerline
-set encoding=utf-8
-
 " Options for vimwiki
 filetype plugin indent on
 let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki/', 'path_html': '~/Dropbox/vimwiki_html/', 'auto_export': '1'}]
@@ -25,3 +22,7 @@ nmap  
 " Options for TwitVim
 " Show me 50 tweets at a time
 let g:twitvim_count = 50
+
+" Configuration for vim-airline status line
+let g:airline_powerline_fonts=1
+let g:airline_theme='badwolf'
