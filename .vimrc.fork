@@ -25,4 +25,4 @@ let g:twitvim_count = 50
 
 " Configuration for vim-airline status line
 let g:airline_powerline_fonts=1
-let g:airline_theme='badwolf'
+let g:airline_theme='powerlineish'
