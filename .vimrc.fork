@@ -16,9 +16,6 @@ let NERDTreeQuitOnOpen=0
 filetype plugin indent on
 let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki/', 'path_html': '~/Dropbox/vimwiki_html/', 'auto_export': '1'}]
 
-" Remap ctrl A to alt-ctrl-x so I can use it within screen
-nmap  
-
 " Options for TwitVim
 " Show me 50 tweets at a time
 let g:twitvim_count = 50
