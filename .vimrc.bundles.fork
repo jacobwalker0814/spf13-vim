@@ -5,7 +5,8 @@ let g:spf13_no_autochdir = 1
 
 if !exists("g:spf13_bundle_groups")
     " Not including the general or html groups so I can override them
-    let g:spf13_bundle_groups=['neocomplcache', 'programming', 'php', 'ruby', 'python', 'go', 'twig', 'javascript', 'misc', 'scala']
+    " Not including the haskell, go, or scala groups as I don't use them
+    let g:spf13_bundle_groups=['neocomplcache', 'programming', 'php', 'ruby', 'python', 'twig', 'javascript', 'misc']
 endif
 
 " General: Kept from spf13
