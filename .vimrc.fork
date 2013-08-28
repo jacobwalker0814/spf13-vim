@@ -19,3 +19,7 @@ let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki/', 'path_html': '~/Dropbox/vim
 " Options for TwitVim
 " Show me 50 tweets at a time
 let g:twitvim_count = 50
+
+let g:airline_powerline_fonts = 1
+unlet g:airline_left_sep
+unlet g:airline_right_sep
