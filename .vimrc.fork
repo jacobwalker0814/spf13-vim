@@ -1,25 +1,36 @@
-colorscheme ir_black
-highlight clear SignColumn
-
-set t_Co=256
-
-set nospell
-
-let g:spf13_no_keyfixes = 1
-let g:spf13_keep_trailing_whitespace = 1
-let g:tagbar_autofocus = 1
-let g:tagbar_autoclose = 1
-
-let NERDTreeQuitOnOpen=0
-
-" Options for vimwiki
-filetype plugin indent on
-let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki/', 'path_html': '~/Dropbox/vimwiki_html/', 'auto_export': '1'}]
-
-" Options for TwitVim
-" Show me 50 tweets at a time
-let g:twitvim_count = 50
-
-let g:airline_powerline_fonts = 1
-unlet g:airline_left_sep
-unlet g:airline_right_sep
+" vim: set sw=4 ts=4 sts=4 et tw=78 foldmarker={,} foldlevel=0 foldmethod=marker nospell:
+" Colors and UI {
+    set background=light             " I prefer the light version
+    set t_Co=256                     " Work better with terminal vim
+    unlet g:solarized_termtrans      " Having this set interferes with
+                                     " gnome-terminal's rendering of solarized
+    let g:solarized_termcolors=256   " Work better with gnome-terminal
+    colorscheme solarized            " Reset the colorscheme after setting
+                                     " previous environment variables
+    highlight clear SignColumn
+    highlight clear LineNr
+    highlight clear CursorLineNr
+" }
+" General Preferences {
+    set nospell
+    let g:spf13_no_keyfixes = 1
+    let g:spf13_keep_trailing_whitespace = 1
+    let g:tagbar_autofocus = 1
+    let g:tagbar_autoclose = 1
+" }
+" NERDTree {
+    let NERDTreeQuitOnOpen=0
+" }
+" Vimwiki {
+    filetype plugin indent on
+    let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki/', 'path_html': '~/Dropbox/vimwiki_html/', 'auto_export': '1'}]
+" }
+" TwitVim {
+    let g:twitvim_count = 50  " Show me 50 tweets at a time
+" }
+" Airline {
+    let g:airline_theme='solarized'
+    let g:airline_powerline_fonts = 1
+    unlet g:airline_left_sep
+    unlet g:airline_right_sep
+" }
